@@ -1,0 +1,14 @@
+The input element in HTML
+
+<input> is a self closing tag. used to initiate user intput. 
+Has attributes like: 
+1. type (can be text/password/radio/checkbox etc.) -> <input type = "text">
+2. name (used to give a name to data being inputted or sent) -> <input name = "LocationData">
+3. placeholder (used to inform the user on what kind of data to enter through the form) - > <input placeholder = "Enter your location data">
+4. required (used to mark the required data input tag. The value of required tagged input must be provided) -> <input required>
+5. id (used to provide an identification to the element. ids of all tags must be unique) -> <input id="catnames">
+6. value (used to provide a value to the tag. Eg- When data of selecting one of the two radio buttons is submitted, the name and value attributes are submitted along with it.) -> <input value = "Data1">
+7. checked (In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it. Just add the word checked to the input element, making sure there is space between it and other attributes.)
+
+<fieldset> element is used to group together related input and label elements
+<legend> element acts as a caption for the content in the <fieldset> element.
